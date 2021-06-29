@@ -1,7 +1,7 @@
 {
   "name": "lib-hub/restrequest",
   "description": "A PHP curl wrapper to make it easier to create RESTFul requests with PHP.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "authors": [
     {
