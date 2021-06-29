@@ -7,19 +7,7 @@
 A PHP curl wrapper to make it easier to create RESTFul requests with PHP.
 
 # Install
-```JSON
-{
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/lib-hub/restrequest"
-    }
-  ],
-  "require": {
-    "lib-hub/restrequest": "1.0.1"
-  }
-}
-```
+`composer require lib-hub/restrequest`
 
 # Use
 
