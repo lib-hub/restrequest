@@ -2,7 +2,7 @@
 
 [![PHP version](https://img.shields.io/badge/PHP-7.4-787CB5.svg?style=flat&logo=PHP)](https://docs.npmjs.com)
 [![Composer version](https://img.shields.io/badge/Composer-latest-787CB5.svg?style=flat&logo=composer)]()
-[![Project version](https://img.shields.io/badge/Version-0.0.1-informational.svg?style=flat)]()
+[![Project version](https://img.shields.io/badge/Version-1.0.0-informational.svg?style=flat)]()
 
 A PHP curl wrapper to make it easier to create RESTFul requests with PHP.
 
