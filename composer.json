@@ -1,0 +1,22 @@
+{
+  "name": "lib-hub/restrequest",
+  "description": "A PHP curl wrapper to make it easier to create RESTFul request with PHP.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Ntrouflias",
+      "email": "antrouflias@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : "^7.4",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "RestRequest\\": "src/"
+    }
+  }
+}
