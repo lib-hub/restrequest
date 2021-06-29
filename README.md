@@ -1,9 +1,10 @@
 # RestRequest
 
 [![PHP version](https://img.shields.io/badge/PHP-7.4-787CB5.svg?style=flat&logo=PHP)](https://docs.npmjs.com)
+[![Composer version](https://img.shields.io/badge/Composer-latest-787CB5.svg?style=flat&logo=composer)]()
 [![Project version](https://img.shields.io/badge/Version-0.0.1-informational.svg?style=flat)]()
 
-A PHP curl wrapper to make it easier to create RESTFul request with PHP.
+A PHP curl wrapper to make it easier to create RESTFul requests with PHP.
 
 # Install
 ```JSON
@@ -24,7 +25,7 @@ A PHP curl wrapper to make it easier to create RESTFul request with PHP.
 
 Basic example
 ```php
-$productsRequest = new RestRequest("BaseURL");
+$productsRequest = new RestRequest($baseUrl . "/product");
 
 $productsRequest->post("payload"); // create new product
 $productsRequest->put("1", "data"); // update first product
