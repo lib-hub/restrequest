@@ -16,7 +16,7 @@ A PHP curl wrapper to make it easier to create RESTFul requests with PHP.
     }
   ],
   "require": {
-    "lib-hub/restrequest": "dev-master"
+    "lib-hub/restrequest": "1.0.0"
   }
 }
 ```
